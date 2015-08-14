@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SortAlgorithm</string>
+
+    <string name="hello_world">输入需要排序的数字，以空格分开</string>
+    <string name="action_settings">Settings</string>
+</resources>
