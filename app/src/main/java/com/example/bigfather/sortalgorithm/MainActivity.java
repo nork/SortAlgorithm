@@ -51,6 +51,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         straightInsertionSort.setOnClickListener(this);
         Button shellSort = (Button) findViewById(R.id.button2);
         shellSort.setOnClickListener(this);
+        Button simpleSelectionSort = (Button) findViewById(R.id.button3);
+        simpleSelectionSort.setOnClickListener(this);
     }
 
     public void getDatas(){
@@ -80,6 +82,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.button2:
                 SortAlgorithm.shellSort(datas);
+                break;
+            case R.id.button3:
+                SortAlgorithm.simpleSelectionSort(datas);
                 break;
         }
 
